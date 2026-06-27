@@ -1,0 +1,14 @@
+NETWORK TRAFFIC CLASSIFICATION - RESULTS SUMMARY
+==================================================
+
+Model: Transformer-Enhanced LSTM
+
+DATASET 1 (CIC-Darknet2020):
+  Accuracy:  93.67%
+  Test Loss: 0.1724
+  Classes: Non-Tor, NonVPN, Tor, VPN
+
+DATASET 2 (Network Traffic):
+  Accuracy:  93.55%
+  Test Loss: 0.1657
+  Classes: ICMP, TCP, TLSv1.2, TLSv1.3
